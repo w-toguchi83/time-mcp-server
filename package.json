@@ -1,0 +1,21 @@
+{
+  "name": "@toguchi/time-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server that provides accurate time information",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "toguchi-time-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test-client.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "keywords": ["mcp", "time", "server"],
+  "author": "",
+  "license": "MIT"
+}
